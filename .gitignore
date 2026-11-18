@@ -1,20 +1,6 @@
-
-# Virtual environment
-.venv/
-venv/
-env/
-
-# API keys and secrets
 .env
 .env.*
-
-# Python cache
+!.env.example
+.venv/
 __pycache__/
-*.py[cod]
-
-# IDE files
-.vscode/
-
-# Operating system
-.DS_Store
-Thumbs.db
+*.pyc
